@@ -69,3 +69,6 @@ python LogAn.py DIRECTORY_WHERE_LOG_FILES_ARE_STORED
 Advanced filtering options to remove XSS and SQLi false positives are available, and custom regex can be added to 'false_positive_XSS_regex.txt' and 'false_positive_SQL_regex.txt' (these files are created after running `Setup.py`.
 
 Do not delete any lines from the template file. New comments in the file should be prefixed with ';'. By default, the parser will escape special characters. To do this manually for a line, prefix the regular expression with the '~' character.
+
+## Credits
+This project was conducted as part of a UROP (Summer Research) placement at Imperial College London under the supervision of Dr Sergio Maffeis.
