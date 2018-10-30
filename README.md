@@ -18,7 +18,7 @@ pip install configparser
 ## Setup
 ### Cloning the repository and downloading requisite files
 ```
-git clone https://gitlab.doc.ic.ac.uk/maffeis/LogAn
+git clone https://github.com/shanpandya/LogAn
 ```
 The latest OWASP ModSec rules can be downloaded directly from the OWASP Github page, or a copy can be found on this page:
 ```
