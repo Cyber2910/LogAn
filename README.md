@@ -20,10 +20,7 @@ pip install configparser
 ```
 git clone https://github.com/shanpandya/LogAn
 ```
-The latest OWASP ModSec rules can be downloaded directly from the OWASP Github page, or a copy can be found on this page:
-```
-https://github.com/SpiderLabs/owasp-modsecurity-crs/tree/v3.0/master/rules
-```
+The latest OWASP ModSec rules can be downloaded directly from the OWASP Github page (a copy can also be found on this page in the 'Filters_and_Rule_Sets' folder).
 The files required are :
 ```
 REQUEST-930-APPLICATION-ATTACK-LFI.conf
