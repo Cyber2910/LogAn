@@ -1,6 +1,6 @@
 # LogAn
 
-`LogAn` is a tool to analyse apache log files and scan for XSS, SQLi and File inclusion attempts in GET requests.
+`LogAn` is a tool to analyse SSL apache log files and scan for XSS, SQLi and File inclusion attempts in GET requests.
 
 `LogAn` can also detect privacy leaks in the form of email addresses present in GET requests, POST requests or HTTP referrer headers.
 
