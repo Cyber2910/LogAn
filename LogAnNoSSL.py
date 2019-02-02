@@ -22,7 +22,7 @@ except IndexError:
     exit()
 
 parser = SafeConfigParser()
-parser.read('Setup_files/configuration_file.ini')
+parser.read('Setup_Files/configuration_file.ini')
 json_data=open('Filters_and_Rule_Sets/crawler-user-agents.json').read()
 bot_data = json.loads(json_data)
 
@@ -521,7 +521,7 @@ if SQL:
 # Create false positives XSS list
 if XSS:
     XSS_false_positives_list = [[] for i in range(len(xss_detections_list))]
-    with open ("Setup_files/false_positive_XSS_regex.txt", "r") as infile:
+    with open ("Setup_Files/false_positive_XSS_regex.txt", "r") as infile:
         index = 0
         for line in infile:
             line = line.strip()
@@ -537,7 +537,7 @@ if XSS:
 # Create false positives SQL list
 if SQL:
     SQL_false_positives_list = [[] for i in range(len(sql_detections_list))]
-    with open ("Setup_files/false_positive_SQL_regex.txt", "r") as infile:
+    with open ("Setup_Files/false_positive_SQL_regex.txt", "r") as infile:
         index = 0
         for line in infile:
             line = line.strip()
