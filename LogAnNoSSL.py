@@ -610,7 +610,7 @@ if sys.argv[1].startswith('/'):
 else:
     folder = sys.argv[1]
 
-pattern = new_re.compile(r'^(\S*|\S*\,\s\S+) (\S+) (\S+(?:\s+)?) (\[.+?\]) (\"(GET|HEAD|POST|PROPFIND|-|OPTIONS|PUT|PATCH|quit).*?\") (\d{3}) (\S+) ((\".*?\")) (\".*?\")')
+pattern = new_re.compile(r'(\S*|\S*\,\s\S+) (\S+) (\S+(?:\s+)?) (\[.+?\]) (\"(GET|HEAD|POST|PROPFIND|-|OPTIONS|PUT|PATCH|quit).*?\") (\d{3}|-) (\S+) ((\".*?\")) (\".*?\")')
 
 f.write(r"""                                                                                                                                                                                                       
 LLLLLLLLLLL                                                                 AAA                                 
